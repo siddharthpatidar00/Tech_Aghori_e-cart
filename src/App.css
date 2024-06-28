@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex button{
+    cursor: pointer;
+}
+.flex button:hover{
+    background-color: rgb(87, 86, 86);
+    color: aliceblue;
+}
+
+.shopping-card:hover {
+    cursor: pointer;
+}
+
+.shopping-card {
+    justify-content: space-between;
+    background-color: #0d138c;
+    padding: 20px 30px;
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.product-item {
+    padding: 20px;
+}
